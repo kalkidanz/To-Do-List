@@ -8,7 +8,6 @@
             <?php include "list.php"; ?>
         </form>
     </div>
-  
 </div>
 
 <?php
