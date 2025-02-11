@@ -8,7 +8,9 @@
             <?php include "list.php"; ?>
         </form>
     </div>
+  
 </div>
+
 <?php
 include "dbconnection.php";
 if(isset($_POST['addtask'])){

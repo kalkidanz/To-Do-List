@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="styles.css">
 <?php
 include "dbconnection.php";
-
 $sql = "SELECT * from todolist";
 $result = mysqli_query($conn, $sql);
 while ($row = mysqli_fetch_array($result)) {
