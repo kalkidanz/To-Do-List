@@ -3,11 +3,11 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: whitesmoke;
+    background-color: #f5d6d6;
     margin: 0;
 }
 .todo{
-    background-color: white;
+    background-color:  #ffecec;
     text-align: center;
     width: 100%;
     max-width: 400px;
@@ -37,3 +37,16 @@ td{
 td a{
     text-decoration: none;
 }
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+    background: #ffecec;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+} 
+
+
+
