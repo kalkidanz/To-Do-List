@@ -1,6 +1,7 @@
 
 <?php
 include "dbconnection.php";
+$error_message = "";
 if(isset($_POST['addtask'])){
 $task  = $_POST['task'];
 if($task == ''){
@@ -20,17 +21,6 @@ else{
 }}
 ?>
 <link rel="stylesheet" href="styles.css">
-<style>
-    .error-message {
-    color: red;
-    font-weight: bold;
-    margin-top: 10px;
-    background: #ffecec;
-    padding: 10px;
-    border: 1px solid red;
-    border-radius: 5px;
-}
-</style>
 <div class="container">
     <div class="todo">
         <form action="#" method="POST">
